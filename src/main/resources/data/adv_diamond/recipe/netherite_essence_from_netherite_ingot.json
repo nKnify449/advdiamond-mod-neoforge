@@ -1,0 +1,9 @@
+{
+  "type": "adv_diamond:essence_grinder",
+  "ingredient": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "id": "adv_diamond:netherite_essence"
+  }
+}

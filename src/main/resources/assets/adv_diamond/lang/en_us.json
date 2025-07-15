@@ -1,0 +1,65 @@
+{
+  "adv_diamond.configuration.title": "Advanced Diamond Configs",
+  "adv_diamond.configuration.section.adv_diamond.common.toml": "Advanced Diamond Configs",
+  "adv_diamond.configuration.section.adv_diamond.common.toml.title": "Advanced Diamond Configs",
+  "adv_diamond.configuration.removeItemFromTab": "Remove All Vanilla Items from creative tab",
+  "adv_diamond.configuration.mc_version_label": "Version Label",
+
+  "item.adv_diamond.essence": "Essence Template",
+
+  "item.adv_diamond.ironified_diamond": "Ironified Diamond",
+  "item.adv_diamond.iron_essence": "Iron Essence",
+
+  "item.adv_diamond.ironified_diamond_sword": "Ironified Diamond Sword",
+  "item.adv_diamond.ironified_diamond_pickaxe": "Ironified Diamond Pickaxe",
+  "item.adv_diamond.ironified_diamond_shovel": "Ironified Diamond Shovel",
+  "item.adv_diamond.ironified_diamond_axe": "Ironified Diamond Axe",
+  "item.adv_diamond.ironified_diamond_hoe": "Ironified Diamond Hoe",
+
+  "item.adv_diamond.ironified_diamond_helmet": "Ironified Diamond Helmet",
+  "item.adv_diamond.ironified_diamond_chestplate": "Ironified Diamond Chestplate",
+  "item.adv_diamond.ironified_diamond_leggings": "Ironified Diamond Leggings",
+  "item.adv_diamond.ironified_diamond_boots": "Ironified Diamond Boots",
+  
+  "item.adv_diamond.goldified_diamond": "Goldified Diamond",
+  "item.adv_diamond.gold_essence": "Gold Essence",
+
+  "item.adv_diamond.goldified_diamond_sword": "Goldified Diamond Sword",
+  "item.adv_diamond.goldified_diamond_pickaxe": "Goldified Diamond Pickaxe",
+  "item.adv_diamond.goldified_diamond_shovel": "Goldified Diamond Shovel",
+  "item.adv_diamond.goldified_diamond_axe": "Goldified Diamond Axe",
+  "item.adv_diamond.goldified_diamond_hoe": "Goldified Diamond Hoe",
+
+  "item.adv_diamond.goldified_diamond_helmet": "Goldified Diamond Helmet",
+  "item.adv_diamond.goldified_diamond_chestplate": "Goldified Diamond Chestplate",
+  "item.adv_diamond.goldified_diamond_leggings": "Goldified Diamond Leggings",
+  "item.adv_diamond.goldified_diamond_boots": "Goldified Diamond Boots",
+
+  "item.adv_diamond.supermond": "Supermond",
+  "item.adv_diamond.netherite_essence": "Netherite Essence",
+
+  "item.adv_diamond.supermond_sword": "Supermond Sword",
+  "item.adv_diamond.supermond_pickaxe": "Supermond Pickaxe",
+  "item.adv_diamond.supermond_shovel": "Supermond Shovel",
+  "item.adv_diamond.supermond_axe": "Supermond Axe",
+  "item.adv_diamond.supermond_hoe": "Supermond Hoe",
+
+  "item.adv_diamond.supermond_helmet": "Supermond Helmet",
+  "item.adv_diamond.supermond_chestplate": "Supermond Chestplate",
+  "item.adv_diamond.supermond_leggings": "Supermond Leggings",
+  "item.adv_diamond.supermond_boots": "Supermond Boots",
+
+  "item.adv_diamond.endermond": "Endermond",
+
+
+  "block.adv_diamond.essence_grinder": "Essence Grinder and Activator",
+  "item.adv_diamond.adv_diamond_upg_sm_temp": "Advanced Diamond Upgrade Smithing Template",
+
+  "enchantment.adv_diamond.diamond_shards": "Diamond Shards",
+
+  "sound.adv_diamond.diamond_shards_finisher": "Entity Spiked With Diamond Shards",
+  "sound.adv_diamond.endermond_link": "Endermond Links",
+
+  "key.category.adv_diamond.keybinds": "Advanced Diamonds",
+  "key.adv_diamond.key_alpha_key": "Alpha Key"
+}

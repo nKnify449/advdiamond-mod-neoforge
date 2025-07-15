@@ -1,0 +1,5 @@
+// 1.21.1	2025-07-15T08:52:54.589723	Global Loot Modifiers : adv_diamond
+80836e772b561635708e7014523c9df7270f31af data/adv_diamond/loot_modifiers/adv_diamond_upg_sm_temp_from_end_city_treasure.json
+8ee0abef1e2173ff449b2e867dc87bcb03b8d2b5 data/adv_diamond/loot_modifiers/netherite_essence_from_other_bastion.json
+5fc83b38c2023894076340b84d5f7c8b4268d6bb data/adv_diamond/loot_modifiers/netherite_essence_from_treasure_bastion.json
+a166ebd36673c3e84df03db61cc70839df01a670 data/neoforge/loot_modifiers/global_loot_modifiers.json

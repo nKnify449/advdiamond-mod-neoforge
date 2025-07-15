@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ironified_diamond": {
+      "conditions": {
+        "items": [
+          {
+            "items": "adv_diamond:ironified_diamond"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adv_diamond:ironified_diamond_sword_smithing"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ironified_diamond"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adv_diamond:ironified_diamond_sword_smithing"
+    ]
+  }
+}

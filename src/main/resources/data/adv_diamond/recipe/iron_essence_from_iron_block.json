@@ -1,0 +1,9 @@
+{
+  "type": "adv_diamond:essence_grinder",
+  "ingredient": {
+    "item": "minecraft:iron_block"
+  },
+  "result": {
+    "id": "adv_diamond:iron_essence"
+  }
+}

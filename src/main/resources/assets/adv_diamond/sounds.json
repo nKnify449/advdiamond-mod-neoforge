@@ -1,0 +1,14 @@
+{
+  "diamond_shards_finisher": {
+    "subtitle": "sound.adv_diamond.diamond_shards_finisher",
+    "sounds": [
+      "adv_diamond:diamond_shards_finisher"
+    ]
+  },
+  "endermond_link": {
+    "subtitle": "sound.adv_diamond.endermond_link",
+    "sounds": [
+      "adv_diamond:endermond_link"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_goldified_diamond": {
+      "conditions": {
+        "items": [
+          {
+            "items": "adv_diamond:goldified_diamond"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adv_diamond:goldified_diamond_axe_smithing"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_goldified_diamond"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adv_diamond:goldified_diamond_axe_smithing"
+    ]
+  }
+}

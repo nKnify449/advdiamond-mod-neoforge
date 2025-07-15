@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_supermond": {
+      "conditions": {
+        "items": [
+          {
+            "items": "adv_diamond:supermond"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "adv_diamond:supermond_helmet_smithing"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_supermond"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "adv_diamond:supermond_helmet_smithing"
+    ]
+  }
+}

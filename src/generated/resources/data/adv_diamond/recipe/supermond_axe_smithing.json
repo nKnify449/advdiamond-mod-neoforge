@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "adv_diamond:supermond"
+  },
+  "base": {
+    "item": "minecraft:diamond_axe"
+  },
+  "result": {
+    "count": 1,
+    "id": "adv_diamond:supermond_axe"
+  },
+  "template": {
+    "item": "adv_diamond:adv_diamond_upg_sm_temp"
+  }
+}

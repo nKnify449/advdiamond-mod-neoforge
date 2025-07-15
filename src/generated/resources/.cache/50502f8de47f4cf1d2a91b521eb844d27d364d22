@@ -1,0 +1,9 @@
+// 1.21.1	2025-07-15T08:52:54.590924	Tags for minecraft:item mod id adv_diamond
+9828e66addc9064e5e78f2652c287d3663eedc3a data/minecraft/tags/item/axes.json
+12d7782397f1073bd24de8ed8fcb60210973b768 data/minecraft/tags/item/chest_armor.json
+33a365e5886375e868ad2b661cee00bc51b1aec4 data/minecraft/tags/item/foot_armor.json
+48c90575cb569acf4c89c32aad24c6dbb9fd622c data/minecraft/tags/item/head_armor.json
+b503ff91c2705e834f9cc4b6f3264b99cb1cfc3f data/minecraft/tags/item/leg_armor.json
+888196e64b2b5d68852d728b812c0542f53c2482 data/minecraft/tags/item/pickaxes.json
+cf107b8e3c5a9b4b177c4cb8cc39b1d5070d76cb data/minecraft/tags/item/shovels.json
+80f884fb5593984943a2c5809e5cce0e418b684b data/minecraft/tags/item/swords.json
