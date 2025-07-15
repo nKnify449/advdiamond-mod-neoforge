@@ -4,6 +4,9 @@
   "adv_diamond.configuration.section.adv_diamond.common.toml.title": "Advanced Diamond Configs",
   "adv_diamond.configuration.removeItemFromTab": "Remove All Vanilla Items from creative tab",
   "adv_diamond.configuration.mc_version_label": "Version Label",
+  "adv_diamond.configuration.pacifyIronGolem": "Pacify Iron Golems",
+  "adv_diamond.configuration.pacifyPhantom": "Pacify Phantoms",
+  "adv_diamond.configuration.pacifyEnderman": "Pacify Endermen",
 
   "item.adv_diamond.essence": "Essence Template",
 

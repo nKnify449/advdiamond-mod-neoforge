@@ -1,6 +1,7 @@
 package com.nknify.adv_diamond.mod.universal.events;
 
 import com.nknify.adv_diamond.AdvancedDiamond;
+import com.nknify.adv_diamond.Config;
 import com.nknify.adv_diamond.mod.block.ModBlocks;
 import com.nknify.adv_diamond.mod.universal.util.ArmorCheckUtility;
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
@@ -38,6 +39,7 @@ public class ModEvents {
     @SubscribeEvent
     public static void onIronGolemTargetChange(LivingChangeTargetEvent event) {
         if (event.getEntity().level().isClientSide()) return;
+        if (!Config.PACIFY_IRON_GOLEM_WITH_ARMOR.get()) return;
         if (!(event.getEntity() instanceof IronGolem ironGolem)) return;
         if (!(event.getNewAboutToBeSetTarget() instanceof Player player)) return;
 
@@ -51,6 +53,7 @@ public class ModEvents {
     @SubscribeEvent
     public static void onPhantomTargetChange(LivingChangeTargetEvent event) {
         if (event.getEntity().level().isClientSide()) return;
+        if (!Config.PACIFY_PHANTOM_WITH_ARMOR.get()) return;
         if (!(event.getEntity() instanceof Phantom phantom)) return;
         if (!(event.getNewAboutToBeSetTarget() instanceof Player player)) return;
 
@@ -63,6 +66,7 @@ public class ModEvents {
     @SubscribeEvent
     public static void onEndermanTargetChange(LivingChangeTargetEvent event) {
         if (event.getEntity().level().isClientSide()) return;
+        if (!Config.PACIFY_ENDERMAN_WITH_ARMOR.get()) return;
         if (!(event.getEntity() instanceof EnderMan enderMan)) return;
         if (!(event.getNewAboutToBeSetTarget() instanceof Player player)) return;
 

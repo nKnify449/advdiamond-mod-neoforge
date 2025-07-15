@@ -28,6 +28,27 @@ public class Config {
                 .defineEnum("mc_version_label", VerLabelMode.OFF);
     }
 
+    public static final ModConfigSpec.BooleanValue PACIFY_IRON_GOLEM_WITH_ARMOR;
+    static {
+        PACIFY_IRON_GOLEM_WITH_ARMOR = BUILDER
+                .comment("If true, it will pacify iron golems when wearing the correct armor set.")
+                .define("pacifyIronGolem", true);
+    }
+
+    public static final ModConfigSpec.BooleanValue PACIFY_PHANTOM_WITH_ARMOR;
+    static {
+        PACIFY_PHANTOM_WITH_ARMOR = BUILDER
+                .comment("If true, it will pacify phantoms when wearing the correct armor set.")
+                .define("pacifyPhantom", true);
+    }
+
+    public static final ModConfigSpec.BooleanValue PACIFY_ENDERMAN_WITH_ARMOR;
+    static {
+        PACIFY_ENDERMAN_WITH_ARMOR = BUILDER
+                .comment("If true, it will pacify endermen when wearing the correct armor set.")
+                .define("pacifyEnderman", true);
+    }
+
     static final ModConfigSpec SPEC = BUILDER.build();
 
     private static boolean validateItemName(final Object obj) {

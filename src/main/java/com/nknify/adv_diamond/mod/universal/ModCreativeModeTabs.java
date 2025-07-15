@@ -37,6 +37,11 @@ public class ModCreativeModeTabs {
                     output.accept(Items.DIAMOND_SWORD);
                     output.accept(Items.DIAMOND_SHOVEL);
                     output.accept(Items.DIAMOND_HOE);
+
+                    output.accept(Items.DIAMOND_HELMET);
+                    output.accept(Items.DIAMOND_CHESTPLATE);
+                    output.accept(Items.DIAMOND_LEGGINGS);
+                    output.accept(Items.DIAMOND_BOOTS);
                 }
 
                 output.accept(ModItems.IRONIFIED_DIAMOND);
