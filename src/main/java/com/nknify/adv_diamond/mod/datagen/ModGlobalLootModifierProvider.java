@@ -26,10 +26,26 @@ public class ModGlobalLootModifierProvider extends GlobalLootModifierProvider {
                         LootItemRandomChanceCondition.randomChance(0.50f).build()
                 }, ModItems.ADVANCED_DIAMOND_UPGRADE_SMITHING_TEMPLATE.get()));
 
+        this.add("inactive_supermond_from_end_city_treasure",
+                new AddItemModifier(new LootItemCondition[] {
+                        new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("chests/end_city_treasure")).build(),
+                        LootItemRandomChanceCondition.randomChance(0.17f).build()
+                }, ModItems.INACTIVE_SUPERMOND.get()));
+
         this.add("netherite_essence_from_treasure_bastion",
                 new AddItemModifier(new LootItemCondition[] {
                         new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("chests/bastion_treasure")).build()
                 }, ModItems.NETHERITE_ESSENCE.get()));
+
+        this.add("inactive_goldified_diamond_from_treasure_bastion",
+                new AddItemModifier(new LootItemCondition[] {
+                        new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("chests/bastion_treasure")).build()
+                }, ModItems.INACTIVE_GOLDIFIED_DIAMOND.get()));
+
+        this.add("inactive_ironified_diamond_from_jungle_temple_dispenser",
+                new AddItemModifier(new LootItemCondition[] {
+                        new LootTableIdCondition.Builder(ResourceLocation.withDefaultNamespace("chests/jungle_temple_dispenser")).build()
+                }, ModItems.INACTIVE_IRONIFIED_DIAMOND.get()));
 
         this.add("netherite_essence_from_other_bastion",
                 new AddItemModifier(new LootItemCondition[] {

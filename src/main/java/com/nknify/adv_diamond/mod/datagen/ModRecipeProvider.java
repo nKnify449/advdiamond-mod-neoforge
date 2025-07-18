@@ -2,6 +2,7 @@ package com.nknify.adv_diamond.mod.datagen;
 
 import com.nknify.adv_diamond.AdvancedDiamond;
 import com.nknify.adv_diamond.mod.block.ModBlocks;
+import com.nknify.adv_diamond.mod.fluid.ModFluids;
 import com.nknify.adv_diamond.mod.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -38,6 +39,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('D', Items.DIAMOND)
                 .define('B', Items.DRAGON_BREATH)
                 .unlockedBy("has_adv_diamond_upg_sm_temp", has(ModItems.ADVANCED_DIAMOND_UPGRADE_SMITHING_TEMPLATE)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModFluids.DIAMOND_LAVA_BUCKET.get())
+                .pattern("DDD")
+                .pattern("DBD")
+                .pattern("DDD")
+                .define('D', Items.DIAMOND)
+                .define('B', Items.LAVA_BUCKET)
+                .unlockedBy("has_lava_bucket", has(Items.LAVA_BUCKET)).save(recipeOutput);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.IRONIFIED_DIAMOND.get(), 1)
                 .requires(ModItems.IRON_ESSENCE)

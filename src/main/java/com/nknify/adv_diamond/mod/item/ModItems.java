@@ -26,6 +26,9 @@ public class ModItems {
     public static final DeferredItem<Item> IRONIFIED_DIAMOND = ITEMS.register("ironified_diamond",
             () -> new Ironified_Diamond(new Item.Properties().rarity(Rarity.RARE)));
 
+    public static final DeferredItem<Item> INACTIVE_IRONIFIED_DIAMOND = ITEMS.register("inactive_ironified_diamond",
+            () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)));
+
     public static final DeferredItem<Item> IRON_ESSENCE = ITEMS.register("iron_essence",
             () -> new Item(new Item.Properties().rarity(Rarity.RARE)));
 
@@ -62,6 +65,9 @@ public class ModItems {
 
     public static final DeferredItem<Item> GOLDIFIED_DIAMOND = ITEMS.register("goldified_diamond",
             () -> new Goldified_Diamond(new Item.Properties().rarity(Rarity.RARE)));
+
+    public static final DeferredItem<Item> INACTIVE_GOLDIFIED_DIAMOND = ITEMS.register("inactive_goldified_diamond",
+            () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)));
 
     public static final DeferredItem<Item> GOLD_ESSENCE = ITEMS.register("gold_essence",
             () -> new Item(new Item.Properties().rarity(Rarity.RARE)));
@@ -117,6 +123,9 @@ public class ModItems {
 
     public static final DeferredItem<Item> SUPERMOND = ITEMS.register("supermond",
             () -> new Supermond(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+
+    public static final DeferredItem<Item> INACTIVE_SUPERMOND = ITEMS.register("inactive_supermond",
+            () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)));
 
     public static final DeferredItem<Item> NETHERITE_ESSENCE = ITEMS.register("netherite_essence",
             () -> new Item(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));

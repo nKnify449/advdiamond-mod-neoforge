@@ -1,5 +1,6 @@
-// 1.21.1	2025-07-15T08:52:54.591114	Item Models: adv_diamond
+// 1.21.1	2025-07-16T19:23:50.672048	Item Models: adv_diamond
 b17c3f8aef0758bc14261bc6b7248b0f7474f226 assets/adv_diamond/models/item/adv_diamond_upg_sm_temp.json
+f13526040bc86b9ed998346796db39ae15c368a1 assets/adv_diamond/models/item/d_lava_bucket.json
 bd29e708370c59cb5b232908c3e8505a0604140b assets/adv_diamond/models/item/endermond.json
 a54ba8ba31dcbcd4a12c4999c416925ce40c217b assets/adv_diamond/models/item/gold_essence.json
 542bbec5c6b1f698e5b50bc7982dfbdcd2a0e043 assets/adv_diamond/models/item/goldified_diamond.json
@@ -52,6 +53,9 @@ f6319fa49d60bba7433e1b7bab2b7fa1886208b9 assets/adv_diamond/models/item/goldifie
 bc58a2e17f1638df5e19b0b1c7f48d1a6af63780 assets/adv_diamond/models/item/goldified_diamond_pickaxe.json
 08bd4d7e65cf931848c4331ed67bd8f10de1339c assets/adv_diamond/models/item/goldified_diamond_shovel.json
 8a40eca8ac29a9d96ddef3d4b1d0a6b9b5142ff7 assets/adv_diamond/models/item/goldified_diamond_sword.json
+06748a177cb3a74bd1c1ac2c8c77cffbf2b7b616 assets/adv_diamond/models/item/inactive_goldified_diamond.json
+7a6f50cca41eae4f93091ceee19b6d0cb7bd9fa9 assets/adv_diamond/models/item/inactive_ironified_diamond.json
+7b278c79999c122ba28a624e70e6496cac91a815 assets/adv_diamond/models/item/inactive_supermond.json
 ca634b872b065a03719475640e6c6ac3b6910a0d assets/adv_diamond/models/item/iron_essence.json
 8f52e8755adb5b363a406eecdaa3af3912698ba4 assets/adv_diamond/models/item/ironified_diamond.json
 7b3c919184413d229c904a8e828249ae8a3e6277 assets/adv_diamond/models/item/ironified_diamond_axe.json

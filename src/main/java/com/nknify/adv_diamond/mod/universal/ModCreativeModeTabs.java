@@ -2,19 +2,13 @@ package com.nknify.adv_diamond.mod.universal;
 
 import com.nknify.adv_diamond.Config;
 import com.nknify.adv_diamond.mod.block.ModBlocks;
-import com.nknify.adv_diamond.mod.enchantment.ModEnchantments;
+import com.nknify.adv_diamond.mod.fluid.ModFluids;
 import com.nknify.adv_diamond.mod.item.ModItems;
-import net.minecraft.core.Holder;
-import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.EnchantedBookItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
-import net.minecraft.world.item.enchantment.Enchantment;
-import net.minecraft.world.item.enchantment.EnchantmentInstance;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
@@ -45,6 +39,7 @@ public class ModCreativeModeTabs {
                 }
 
                 output.accept(ModItems.IRONIFIED_DIAMOND);
+                output.accept(ModItems.INACTIVE_IRONIFIED_DIAMOND);
                 output.accept(ModItems.IRON_ESSENCE);
 
                 output.accept(ModItems.IRONIFIED_DIAMOND_PICKAXE);
@@ -59,6 +54,7 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.IRONIFIED_DIAMOND_BOOTS);
 
                 output.accept(ModItems.GOLDIFIED_DIAMOND);
+                output.accept(ModItems.INACTIVE_GOLDIFIED_DIAMOND);
                 output.accept(ModItems.GOLD_ESSENCE);
 
                 output.accept(ModItems.GOLDIFIED_DIAMOND_PICKAXE);
@@ -73,6 +69,7 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.GOLDIFIED_DIAMOND_BOOTS);
 
                 output.accept(ModItems.SUPERMOND);
+                output.accept(ModItems.INACTIVE_SUPERMOND);
                 output.accept(ModItems.NETHERITE_ESSENCE);
 
                 output.accept(ModItems.SUPERMOND_PICKAXE);
@@ -87,6 +84,7 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.SUPERMOND_BOOTS);
 
                 output.accept(ModItems.ENDERMOND);
+                output.accept(ModFluids.DIAMOND_LAVA_BUCKET);
 
                 output.accept(ModBlocks.ESSENCE_GRINDER);
                 output.accept(ModItems.ADVANCED_DIAMOND_UPGRADE_SMITHING_TEMPLATE);

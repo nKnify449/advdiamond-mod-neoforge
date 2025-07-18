@@ -1,6 +1,7 @@
 package com.nknify.adv_diamond.mod.datagen;
 
 import com.nknify.adv_diamond.AdvancedDiamond;
+import com.nknify.adv_diamond.mod.fluid.ModFluids;
 import com.nknify.adv_diamond.mod.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceKey;
@@ -46,6 +47,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.NETHERITE_ESSENCE.get());
         basicItem(ModItems.ADVANCED_DIAMOND_UPGRADE_SMITHING_TEMPLATE.get());
         basicItem(ModItems.ENDERMOND.get());
+        basicItem(ModFluids.DIAMOND_LAVA_BUCKET.get());
+
+        basicItem(ModItems.INACTIVE_IRONIFIED_DIAMOND.get());
+        basicItem(ModItems.INACTIVE_GOLDIFIED_DIAMOND.get());
+        basicItem(ModItems.INACTIVE_SUPERMOND.get());
 
         handheldItem(ModItems.IRONIFIED_DIAMOND_PICKAXE);
         handheldItem(ModItems.IRONIFIED_DIAMOND_AXE);

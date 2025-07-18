@@ -3,6 +3,8 @@ package com.nknify.adv_diamond;
 import com.nknify.adv_diamond.mod.block.ModBlocks;
 import com.nknify.adv_diamond.mod.component.ModDataComponents;
 import com.nknify.adv_diamond.mod.enchantment.ModEnchantmentEffects;
+import com.nknify.adv_diamond.mod.fluid.ModFluidTypes;
+import com.nknify.adv_diamond.mod.fluid.ModFluids;
 import com.nknify.adv_diamond.mod.item.ModItems;
 import com.nknify.adv_diamond.mod.screen.ModMenuTypes;
 import com.nknify.adv_diamond.mod.universal.ModCreativeModeTabs;
@@ -63,6 +65,9 @@ public class AdvancedDiamond {
         ModEnchantmentEffects.register(modEventBus);
 
         ModSounds.register(modEventBus);
+
+        ModFluidTypes.register(modEventBus);
+        ModFluids.register(modEventBus);
 
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }

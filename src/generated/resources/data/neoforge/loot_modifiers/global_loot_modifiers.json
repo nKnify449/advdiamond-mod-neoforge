@@ -1,7 +1,10 @@
 {
   "entries": [
     "adv_diamond:adv_diamond_upg_sm_temp_from_end_city_treasure",
+    "adv_diamond:inactive_supermond_from_end_city_treasure",
     "adv_diamond:netherite_essence_from_treasure_bastion",
+    "adv_diamond:inactive_goldified_diamond_from_treasure_bastion",
+    "adv_diamond:inactive_ironified_diamond_from_jungle_temple_dispenser",
     "adv_diamond:netherite_essence_from_other_bastion"
   ],
   "replace": false

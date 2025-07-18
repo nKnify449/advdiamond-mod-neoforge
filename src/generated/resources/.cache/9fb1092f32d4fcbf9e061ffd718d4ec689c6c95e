@@ -1,5 +1,6 @@
-// 1.21.1	2025-07-15T15:24:48.045535	Recipes
+// 1.21.1	2025-07-16T19:16:41.702353	Recipes
 26e683977bdf88f4ca3788274d758da82acea492 data/adv_diamond/advancement/recipes/misc/adv_diamond_upg_sm_temp.json
+50c9adfe57df26105dc5b1f11c12828def637b8c data/adv_diamond/advancement/recipes/misc/d_lava_bucket.json
 6802bb95ba7b83f342b7532e9090fa936190d768 data/adv_diamond/advancement/recipes/misc/endermond.json
 6a8f7268fabbadfc01c867ac8f50c7b70eada53e data/adv_diamond/advancement/recipes/misc/essence_grinder.json
 7f4379056b1278044199e66c2418a3a79dcc6a4d data/adv_diamond/advancement/recipes/misc/goldified_diamond.json
@@ -33,6 +34,7 @@ ba4cc17293efa11d19cff7e5c091372e785ab0be data/adv_diamond/advancement/recipes/mi
 d8f642daf14c153774b7c4b997022292a6525e87 data/adv_diamond/advancement/recipes/misc/supermond_shovel_smithing.json
 047a1046b1b1ce08e888803bb7f0d7ef7ab17986 data/adv_diamond/advancement/recipes/misc/supermond_sword_smithing.json
 36a2fb57f4e182d6942e0b55864972ba74d85286 data/adv_diamond/recipe/adv_diamond_upg_sm_temp.json
+f463bc8e91df395ccdf4b52a1f54f27d3726e410 data/adv_diamond/recipe/d_lava_bucket.json
 0c4b9afebabe1561f0f307a21d42ad780d8a9bc1 data/adv_diamond/recipe/endermond.json
 1e3f0ab3ad3231f0671bc84b6846fa7e72dec49a data/adv_diamond/recipe/essence_grinder.json
 c14b2fae262e1f2de1f5c0fb4d5b63e878867138 data/adv_diamond/recipe/goldified_diamond.json

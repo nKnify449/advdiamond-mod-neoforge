@@ -11,6 +11,7 @@
   "item.adv_diamond.essence": "Essence Template",
 
   "item.adv_diamond.ironified_diamond": "Ironified Diamond",
+  "item.adv_diamond.inactive_ironified_diamond": "Inactive Ironified Diamond",
   "item.adv_diamond.iron_essence": "Iron Essence",
 
   "item.adv_diamond.ironified_diamond_sword": "Ironified Diamond Sword",
@@ -25,6 +26,7 @@
   "item.adv_diamond.ironified_diamond_boots": "Ironified Diamond Boots",
   
   "item.adv_diamond.goldified_diamond": "Goldified Diamond",
+  "item.adv_diamond.inactive_goldified_diamond": "Inactive Goldified Diamond",
   "item.adv_diamond.gold_essence": "Gold Essence",
 
   "item.adv_diamond.goldified_diamond_sword": "Goldified Diamond Sword",
@@ -39,6 +41,7 @@
   "item.adv_diamond.goldified_diamond_boots": "Goldified Diamond Boots",
 
   "item.adv_diamond.supermond": "Supermond",
+  "item.adv_diamond.inactive_supermond": "Inactive Supermond",
   "item.adv_diamond.netherite_essence": "Netherite Essence",
 
   "item.adv_diamond.supermond_sword": "Supermond Sword",
@@ -53,6 +56,7 @@
   "item.adv_diamond.supermond_boots": "Supermond Boots",
 
   "item.adv_diamond.endermond": "Endermond",
+  "item.adv_diamond.d_lava_bucket": "Diamond Lava Bucket",
 
 
   "block.adv_diamond.essence_grinder": "Essence Grinder and Activator",
