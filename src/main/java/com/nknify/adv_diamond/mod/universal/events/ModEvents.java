@@ -42,7 +42,7 @@ public class ModEvents {
         if (!(event.getEntity() instanceof IronGolem ironGolem)) return;
         if (!(event.getNewAboutToBeSetTarget() instanceof Player player)) return;
 
-        if (ArmorCheckUtility.isWearingFullIronifiedDiamondArmor(player)) {
+        if (ArmorCheckUtility.isWearingFullIronifiedDiamondArmor(player) || ArmorCheckUtility.isWearingFullSupermondArmor(player)) {
             event.setNewAboutToBeSetTarget(null); // cancel targeting
             ironGolem.setRemainingPersistentAngerTime(0); // clear anger
             ironGolem.setTarget(null);
@@ -56,7 +56,7 @@ public class ModEvents {
         if (!(event.getEntity() instanceof Phantom phantom)) return;
         if (!(event.getNewAboutToBeSetTarget() instanceof Player player)) return;
 
-        if (ArmorCheckUtility.isWearingFullIronifiedDiamondArmor(player)) {
+        if (ArmorCheckUtility.isWearingFullIronifiedDiamondArmor(player) || ArmorCheckUtility.isWearingFullSupermondArmor(player)) {
             event.setNewAboutToBeSetTarget(null); // cancel targeting
             phantom.setTarget(null);
         }
@@ -69,7 +69,7 @@ public class ModEvents {
         if (!(event.getEntity() instanceof EnderMan enderMan)) return;
         if (!(event.getNewAboutToBeSetTarget() instanceof Player player)) return;
 
-        if (ArmorCheckUtility.isWearingFullGoldifiedDiamondArmor(player)) {
+        if (ArmorCheckUtility.isWearingFullGoldifiedDiamondArmor(player) || ArmorCheckUtility.isWearingFullSupermondArmor(player)) {
             event.setNewAboutToBeSetTarget(null);// cancel targeting
             enderMan.setRemainingPersistentAngerTime(0);
             enderMan.setTarget(null);
