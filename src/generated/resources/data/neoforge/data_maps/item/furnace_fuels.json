@@ -1,0 +1,16 @@
+{
+  "values": {
+    "adv_diamond:d_lava_bucket": {
+      "burn_time": 50000
+    },
+    "adv_diamond:inactive_goldified_diamond": {
+      "burn_time": 15000
+    },
+    "adv_diamond:inactive_ironified_diamond": {
+      "burn_time": 14000
+    },
+    "adv_diamond:inactive_supermond": {
+      "burn_time": 16000
+    }
+  }
+}

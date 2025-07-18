@@ -1,0 +1,10 @@
+{
+  "type": "adv_diamond:add_item",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:chests/jungle_temple_dispenser"
+    }
+  ],
+  "item": "adv_diamond:inactive_ironified_diamond"
+}
